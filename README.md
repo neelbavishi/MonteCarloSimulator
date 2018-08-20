@@ -16,10 +16,13 @@ and one being Aggressive.
 This MonteCarlo simulator uses a random number generator to ensure Gaussian distribution of random
 numbers that are generated.
 
-Driver Program: com/pc/portfolio/simulator/MonteCarloDriver.java
-Main Simulation Program: com/pc/portfolio/simulator/MonteCarloSimulator.java
+## Driver Program ## 
+com/pc/portfolio/simulator/MonteCarloDriver.java
 
-##--- Assumptions for MonteCarlo Simulation Algorithm ---## 
+## Main Simulation Program ##
+com/pc/portfolio/simulator/MonteCarloSimulator.java
+
+## Assumptions for MonteCarlo Simulation Algorithm ## 
 
 1. Portfolio Inflation Adjusted Values from Simulation
 2. Number of simulations = 10,000
@@ -27,7 +30,7 @@ Main Simulation Program: com/pc/portfolio/simulator/MonteCarloSimulator.java
 4. Initial investment = $100,000
 5. Inflation adjusted at the rate of 3.5% each year
 
-##--- Simulation Results ---##
+## Simulation Results ##
 
 | Portfolio Type        | Median 20th Year | 10% Best Case | 10% Worst Case |
 | --------------------- | ---------------- | ------------- | -------------- |
